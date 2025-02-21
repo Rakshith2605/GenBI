@@ -44,6 +44,7 @@ if user_query:
                     st.write("Response 1 :", response)
             else:
                 st.image("exports/charts/temp_chart.png", caption="Your caption here")
+                image_container = st.empty()
 
                 #st.write("Response 2 :", response)
         elif isinstance(response, pd.DataFrame):  # If response is a DataFrame
