@@ -4,3 +4,4 @@ pandasai
 openai     
 matplotlib  
 plotly     
+dotenv
