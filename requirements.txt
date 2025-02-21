@@ -7,3 +7,4 @@ matplotlib
 plotly     
 dotenv
 PyYAML
+seaborn
