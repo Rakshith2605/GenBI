@@ -1,0 +1,6 @@
+streamlit==1.37.1  # Latest version for Streamlit as of Feb 2025
+pandas==2.2.2      # Stable version for data manipulation
+pandasai==2.2.0    # Latest version for PandasAI (check for updates if needed)
+openai==1.35.3     # Latest version for OpenAI Python client
+matplotlib==3.9.2  # Latest version for Matplotlib plotting
+plotly==5.22.0     # Latest version for Plotly interactive plots
