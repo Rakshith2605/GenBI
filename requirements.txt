@@ -6,3 +6,4 @@ openai
 matplotlib  
 plotly     
 dotenv
+PyYAML
