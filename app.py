@@ -22,6 +22,7 @@ llm = OpenAI(api_token=api_key)  # Replace with your actual API key
 sdf = SmartDataframe(df, config={"llm": llm, "save_charts": False, "chart_type": "plotly"})
 # User query input
 user_query = st.text_input("Enter your query (e.g., 'Plot a histogram of column X')")
+image_container = st.empty()
 
 if user_query:
     with st.spinner('Generating response...'):
