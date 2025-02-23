@@ -99,6 +99,7 @@ with tab2:
                         image_container.image(file_path)
                 else:
                     image_container.image("exports/charts/temp_chart.png")
+                    os.remove("exports/charts/temp_chart.png")
             elif isinstance(response, pd.DataFrame):
                 st.write("DataFrame Response:", response)
             else:
